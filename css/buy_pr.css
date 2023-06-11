@@ -1,0 +1,246 @@
+.main_app {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+.img_product {
+    width: 650px; 
+    margin-top: 15px;
+}
+.img_pr-link {
+    width: 90%;
+}
+.main_content {
+
+}
+.main_content h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 35px;
+}
+.iformation_product {
+
+}
+.iformation_product-list {
+    list-style: none;
+    padding: 0;
+}
+.iformation_product-item {
+    margin-top: 12px;
+    font-size: 2rem;
+    line-height: 1;
+}
+.if-product-item__price {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.if-product-item__price-current {
+    font-size: 3rem;
+    color: red; 
+}
+.if-product-item__price-sale {
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 2rem;
+    background-color: black;
+    color: var(--white-color);
+    padding: 7px 5px 5px 5px;
+    border-radius: 5px;
+    animation: flicker 3s infinite ;
+}
+@keyframes flicker {
+    0%{
+        background-color: var(--black-color);
+        color: var(--white-color);
+    }
+    50% {
+        background-color: var(--white-color);
+        color: var(--black-color);
+    }
+    100%{
+        background-color: var(--black-color);
+        color: var(--white-color);
+    }
+}
+/* slide */
+.myslide {
+    display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+.slide_show {
+    width:100%;
+    border-radius: 5px;
+}
+.slide_item-link {
+    width: 150%;
+    cursor: pointer;
+}
+img {
+    vertical-align: middle;
+}
+.Slide {
+    position: relative;
+}
+.mySlides {
+    display: none;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.icon_slide {
+    font-size: 3rem;
+    opacity: 0.8;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+.slide_list {
+    display: flex;
+    justify-content: center;
+}
+  
+.slide_list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.slide_list-item {
+    width: 19%;
+    margin: 0 27px;
+    margin-top: 5px;
+}
+.slide_list-item:first-child {
+    margin-left: 0px;
+}
+.demo {
+    opacity: 0.6;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+/* buy */
+#buy_amount {
+    margin-top: 25px;
+    display: flex;
+}
+#amount {
+    width: 45px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.btn-amount {
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-amount:hover {
+    background-color: rgb(236, 153, 120);
+}
+.icon_amount {
+    font-size: 1.5rem;
+}
+.buy_product {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.buy_product-btn {
+    height: 50px;
+    width: 200px;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy_product-btn:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.add-cart {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: var(--white-color);
+}
+.add-cart:hover {
+    cursor: pointer;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.add-cart_icon {
+    font-size: 3rem;
+}
+.product_same-cap {
+    margin-top: 100px;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+.product_same-cap::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: 1px solid purple;
+    left: 0;
+    top: -50px;
+}
+.product_same {
+    position: relative;
+}
+.product_same::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: 1px solid purple;
+    bottom: -35px;
+}
+.amount_and_buy {
+    display: flex;
+}

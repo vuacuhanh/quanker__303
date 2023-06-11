@@ -1,0 +1,168 @@
+.main {
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.cart-list {
+    margin-top: 10px;
+    display: flex;
+    height: 115px;
+    background-color: aliceblue;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 5px
+}
+.choice_all-item {
+    border: 1px solid red;
+    background-color: var(--white-color);
+    height: 60px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.check_all {
+    margin-left: 15px;
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.product_item {
+    width: 36%;
+    margin-left: 20px;
+}
+.unit_price {
+    width: 17%;
+}
+.unit_amount {
+    width: 17%;
+}
+.total_money {
+    width: 15%;
+}
+.list-cart {
+    margin-top: 30px;
+}
+
+.img_cart-link {
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.name_product {
+    width: 21%;
+    line-height: 1;
+    padding: 0 15px;
+}
+.name_product-item {
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 2rem;
+    margin: 10px;
+}
+.cart_price {
+    width: 15%;
+    color: #ee3434;
+    margin-right: 10px;
+}
+#buy_amounti {
+    width: 20%;
+    display: flex;
+}
+.provisional {
+    width: 14%;
+}
+.cart-remove {
+    display: flex;
+}
+.cart-item-remove {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--black-color);
+}
+.cart-item-remove:hover {
+    color: #ee3434;
+    cursor: pointer;
+}
+.bill {
+    height: 400px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+.bill_cart {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 2rem;
+    color: var(--black-color);
+}
+.bill_cart-name {
+    margin-top: 20px;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+.bill_product_number {
+    display: flex;
+    justify-content: space-between;
+}
+.product_number {
+    color: #000000;
+    margin-right: 15px;
+}
+.bill-provisional_money {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.discount_code {
+    margin-top: 25px;
+}
+.discount_code  h5 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}   
+.code {
+    width: 95%;
+    height: 35px;
+    outline: none;
+    border-radius: 3px;
+}
+.bill-provisional--price {
+    color: #9a9595;
+    margin-right: 15px;
+}
+.bill-provisional_money::before {
+    content: "";
+    position: absolute;
+    background-color: #ee3434;
+    width: 95%;
+    border: 1px solid rgb(7, 7, 7);
+    bottom: -96px;
+} 
+.bill_total-money {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.total-money-price {
+    margin-right: 15px;
+    color: #ee3434;
+}
+.pay_here {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.click_pay {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.click_pay:hover{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}

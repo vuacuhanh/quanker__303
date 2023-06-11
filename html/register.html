@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web của quân</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/css/Homepage_main.css">
+    <link rel="stylesheet" href="/css/responsive_HomeP.css">
+    <link rel="stylesheet" href="/css/gridDeAn.css">
+    <link rel="stylesheet" href="/css/login_register.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.1.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">   
+</head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="grid wide">
+                    <!-- hader navbar -->
+                    <div id="header_mobile-user">
+                        <i class="header-user-mobile-icon fa-solid fa-list"></i>
+                    </div>
+                    <nav id="header__navbar-mobile" class="header__navbar ">
+                        <ul class="header__navbar-list">   
+                            <li class="header__navbar-item header__navbar-user header_nav-bor">
+                                <a href="/html/index.html" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-house"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__navbar-item header__navbar-user">
+                                <a href="/html/information.html" class="header__navbar-item-link">Kênh người bán</a>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item bell header__navbar-appear hide-on-mobile">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                    Thông báo
+                                </a>
+                            </li>
+                            <li class="header__navbar-item hide-on-mobile">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-circle-info"></i>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                            <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                           
+                            <li class="header__navbar-item">
+                                <a href="/html/login.html" class="header__navbar-item-link">
+                                    Đăng nhập
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="/html/register.html" class="header__navbar-item-link">
+                                    Đăng kí
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-with-search">
+                        <!-- menu mobile and search mobile  -->
+                       
+                        <!-- <div class="header-menu-mobile-btn">
+                            <i class="header-menu-mobile-icon fa-solid fa-bars"></i>
+                        </div> -->
+                        <label for="mobile_search-checkbox" class="header_mobile-search ">
+                            <i class="header-search-mobile-icon fa-solid fa-magnifying-glass"></i>
+                        </label>
+                        <div class="header-logo hide-on-table">
+                            <a href="/html/index.html" class="header-logo-link">         
+                                    <img src="/img/League-Of-Legends-Logo-Transparent-PNG.png" alt="" class="header-logo-img">
+                            </a>
+                        </div>
+                        <input type="checkbox" hidden id="mobile_search-checkbox" class="header_search-checkbox">
+                        <div class="header-search ">
+                            <div class="header-search-wrap">
+                                <input type="text" class="header-search-find" placeholder="Tìm kiếm sản phẩm">
+                               <div class="header-search-history">
+                                    <h3 class="header-search-history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="header-search-history-list">
+                                        <li class="header-search-history-item">
+                                            <a href="">Mô hình đồ chơi đẹp</a>
+                                        </li>
+                                        <li class="header-search-history-item">
+                                            <a href="">Mô hình Nauruto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="header__search-glass">
+                                <i class="header__search-icon-glass fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <div class="header-cart">
+                            <div class="header-cart-wrap">
+                                <a href="/html/cart.html" class="header-cart-wrap-link">
+                                    <i class="header-cart-icon fa-solid  fa-cart-shopping"></i>
+                                    <span class="header-cart-notice">3</span>
+                                </a>  
+                                <!-- no cart: header-cart-list--nocart -->
+                                <div class="header-cart-list">
+                                    <h4 class="header-cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header-cart-list-item">
+                                        <li class="header-cart-item">
+                                            <a href="/html/buy_product.html" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>     
+                                        <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>
+                                        <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>  
+                                        <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>
+                                        <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>    
+                                        <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>               <li class="header-cart-item">
+                                            <a href="" class="header-cart-item-link">
+                                                <img src="https://down-vn.img.susercontent.com/file/f697783846f7cd4abb75a26eca7ec369" alt="" class="header-cart-img">
+                                                <div class="header-cart-item-infor">
+                                                    <div class="header-cart-item-head">
+                                                        <h5 class="header-cart-item-name">Mô hình One Piece đẹp giá rẻ</h5>
+                                                        <div class="header-cart-price-wrap">
+                                                            <span class="header-cart-item-price">199.000đ</span>
+                                                            <span class="header-cart-item-multiply">x</span>
+                                                            <span class="header-cart-item-amount">2</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header-cart-item-body">
+                                                        <span class="header-cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </a>   
+                                        </li>                                             
+                                    </ul>
+                                    <a href="/html/cart.html" class="header-cart-seen">
+                                        <span class="header-cart-seen-cart"> Xem giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </header>
+        <!--MODAL-->
+            <div class="modal">
+                <div class="grid wide">
+                    <div class="row modal_body-main">
+                        <div class="col l-6 m-0 c-0 character_photo">
+                            <div class="character_photo-list">
+                            <img src="/img/atrox.jpg" alt="" class="img_link">
+                            </div>
+                        </div>
+                        <!-- register form -->
+                        <div class="col l-4 m-9 c-10 auth__form-log--main">
+                            <div class="auth__form-container">
+                                <div class="auth__form-header">
+                                    <h3 class="auth__form-register">Đăng ký</h3>                         </div>
+                                <div class="auth__form-form">
+                                    <div class="auth__form-group">
+                                        <input type="text" class="auth__form-input" placeholder="Email của bạn">
+                                    </div>
+                                    <div class="auth__form-group">
+                                        <input type="password" class="auth__form-input" placeholder="Mật khẩu">
+                                    </div>
+                                    <div class="auth__form-group">
+                                        <input type="password" class="auth__form-input" placeholder="Xác minh mật khẩu">
+                                    </div>
+                                </div>
+                                <div class="auth__form-aside">
+                                    <p class="auth__form-policy--text">
+                                        Bằng việc đăng ký, bạn đã đồng ý
+                                        <a href="" class="auth__form-policy--textlink">Điều khoản</a> &
+                                        <a href="" class="auth__form-policy--textlink">Chính sách bảo mật</a>
+                                    </p>
+                                </div>
+                                <div class="auth__form-control">
+                                    <button class="btn auth__form-control-back">Trở lại</button>
+                                    <button class="btn btn-primary btn-primary__default">Đăng ký</button>
+                                </div>  
+                            </div>
+                            <div class="auth__form-socials">
+                                <h3 class="auth__form-socials-cap">
+                                    Đăng nhập với
+                                </h3>
+                                <div class="auth__form-socials-list">
+                                    <a href="" class="btn-icon  auth__form-socials--fb">
+                                        <i class="auth__icon-fb fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="btn-icon btn__icon-gg auth__form-socials--gg">
+                                        <i class="auth__icon-gg fa-brands fa-google"></i>
+                                    </a>
+                                    <a href="" class="btn-icon auth__form-socials--phone">
+                                        <i class="auth__icon-phone fa-solid fa-phone"></i>
+                                    </a>
+                                    <a href="" class="btn-icon  auth__form-socials--xbox">
+                                        <i class="auth__icon-xbox fa-brands fa-xbox"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="grid__row">
+                    <div class="col l-2-5 m-4 c-6">
+                        <h3 class="footer_heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Shoppmail</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Phản hồi</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Vận chuyển</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-5 m-4 c-6">
+                        <h3 class="footer_heading">Về SHOP</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Giới thiệu về shop</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Điều khoản</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">Chính sách bảo mật</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="/html/information.html" class="footer_item-link">Kênh người bán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-5 m-4 c-6">
+                        <h3 class="footer_heading"></h3>
+                    </div>
+                    <div class="col l-2-5 m-4 c-6">
+                        <h3 class="footer_heading">Theo dõi</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">
+                                    <i class="footer_item-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">
+                                    <i class="footer_item-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                    </a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item-link">
+                                    <i class="footer_item-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-5 m-4 c-6">
+                        <h3 class="footer_heading">Thanh toán</h3>
+                        <div class="footer_pay">
+                            <ul class="footer_pay-list">
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/d4bbea4570b93bfd5fc652ca82a262a8" alt="" class="footer_pay-img">
+                                    </a>          
+                                </li>
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/a0a9062ebe19b45c1ae0506f16af5c16" alt=""  class="footer_pay-img">
+                                    </a>
+                                    
+                                </li>
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/38fd98e55806c3b2e4535c4e4a6c4c08" alt=""  class="footer_pay-img">
+                                    </a>                  
+                                </li>
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/bc2a874caeee705449c164be385b796c" alt=""  class="footer_pay-img">
+                                    </a>
+                                </li>
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/2c46b83d84111ddc32cfd3b5995d9281" alt=""  class="footer_pay-img">
+                                    </a>
+                                </li>
+                                <li class="footer_pay-item">
+                                    <a href="" class="footer_pay-item--link">
+                                        <img src="https://down-vn.img.susercontent.com/file/5e3f0bee86058637ff23cfdf2e14ca09" alt=""  class="footer_pay-img">
+                                    </a>      
+                                </li>                         
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="footer_bottom">
+                <div class="grid wide">
+                    <p class="footer_text"> @2001216084 - Thái Hoàng Quân</p>
+                </div>
+            </div>
+        </footer>
+        <script src="/js.js"></script>
+    </body>
+</html>

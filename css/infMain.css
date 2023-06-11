@@ -1,0 +1,127 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+.container_if{
+    background:  url(/img/hinh-anh-gif-dan-cuu-vui-nhon.gif) no-repeat center center fixed;
+    background-size: cover;
+}
+.my_information {
+    border: 4px solid rgb(14, 14, 14);
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 20px 0px;
+}
+
+.my_information-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.my_information-link-img{
+    margin-top: 30px;
+    width: 250px;
+    align-items: center;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 251, 251);
+    align-items: center;
+    box-shadow: rgb(204 82 206) 0px 2px 15px 0px ;
+}
+.my_information-main{
+    padding: 20px 110px 17px 50px;
+}
+.my_information-main p {
+    font-size: 30px;
+    color: red;
+    margin: 0;
+}
+.my_information-list{
+    list-style: none;
+    padding: 0;
+}
+.my_information-content-i {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+    text-align: center;
+    margin-top: 18px;
+}
+.my_information-content {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.my_information-item{
+    font-size: 20px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.my_information-item-i {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    background-color: rgb(228, 232, 232);
+    border-radius: 100%;
+    padding: 11px 8px;
+}
+.my_information-item-link {
+    text-decoration: none;
+    color: black;
+}
+.my_information-item-link:hover {
+    color: red;
+}
+.project {
+    width: 660px;
+    height: 800px;
+    border-radius: 10px;
+}
+.my_project {
+    border-top: 5px solid rgb(162, 243, 216);
+    margin-right: 30px;
+}
+.my_target {
+    background-color: aliceblue;
+    border: 4px solid rgb(12, 12, 12);
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 370px;
+}
+.my_target-caption {
+    text-align: center;
+    font-size: 25px;
+    color: red ;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.my_target-content  {
+    font-size: 20px;
+    margin:10px 60px;
+    word-wrap: inherit;
+    line-height: 2rem;
+}
+.introduce {
+    display: flex;
+    margin-top: 30px;
+}
+.my_introduce {
+    background-color: aliceblue;
+    border-top: 5px solid rgb(162, 243, 216);
+    border: 4px solid rebeccapurple;
+    border-radius: 10px;
+
+}
+.my_introduce p {
+    margin: 10px 10px;
+}
+.my_introduce-content {
+    margin: 0 30px;
+}
+.my_introduce-caption {
+    text-align: center; 
+    margin:10px 10px;
+}
